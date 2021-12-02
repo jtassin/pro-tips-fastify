@@ -1,0 +1,22 @@
+{
+  "name": "pro-tips-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtassin/pro-tips-fastify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtassin/pro-tips-fastify/issues"
+  },
+  "homepage": "https://github.com/jtassin/pro-tips-fastify#readme",
+  "dependencies": {
+    "fastify": "^3.24.1"
+  }
+}
