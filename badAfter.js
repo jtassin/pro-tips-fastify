@@ -39,7 +39,12 @@ async function run() {
         console.error('after', err)
         fastify.register(plugin2)
     })
-    fastify.listen(3000, '0.0.0.0');
+    fastify.listen(3000, '0.0.0.0', (err) => {
+        if(err) {
+            console.error('listen', err)
+            throw err
+        }
+    });
 
 }
 
